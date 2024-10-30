@@ -11,7 +11,7 @@ npm install trackstar
 npm install server
 ```
 
-You will need to add .env file to configure the express js server locally. Here are the values you will need:
+You will need to add a .env file to configure the expressjs server locally. Here are the values you will need:
 
 ```bash
 PORT=[local_port]
