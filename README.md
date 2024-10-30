@@ -11,6 +11,15 @@ npm install trackstar
 npm install server
 ```
 
+You will need to add .env file to configure the express js server locally. Here are the values you will need:
+
+```bash
+PORT=[local_port]
+MONGODB_URL=mongodb://127.0.0.1:27017/trackstar
+PASSWORD_SECRET_KEY=[password_key]
+TOKEN_SECRET_KEY=[token_key]
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
